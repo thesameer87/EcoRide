@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EcoRide Profile">
+  <title>EcoRide | Profile</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="EcoRide Logo">
+    </div>
+    <nav>
+      <a href="login.html" class="btn">Logout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="profile-container">
+      <h2>Your Profile</h2>
+      <div class="profile-info">
+        <div class="info-item">
+          <strong>Name:</strong> <span id="userName">John Doe</span>
+        </div>
+        <div class="info-item">
+          <strong>Email:</strong> <span id="userEmail">john.doe@example.com</span>
+        </div>
+        <div class="info-item">
+          <strong>Member Since:</strong> <span id="userSince">January 2023</span>
+        </div>
+      </div>
+      <button id="editProfileBtn" class="btn">Edit Profile</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 EcoRide | All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const editProfileBtn = document.getElementById('editProfileBtn');
+
+    editProfileBtn.addEventListener('click', function() {
+      // Simulate navigating to an edit profile page (replace with actual logic)
+      window.location.href = "edit-profile.html";
+    });
+  </script>
+</body>
+</html>
