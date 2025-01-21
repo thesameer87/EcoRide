@@ -19,9 +19,4 @@ EcoRide is a sustainable ride service platform that enables users to book the ne
 - Maven 3.6 or higher
 - MySQL Database
 
-## Setup Instructions
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/ecoride.git
-cd ecoride
